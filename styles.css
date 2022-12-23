@@ -12,13 +12,15 @@ html {
 
   .red {
     background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
-    box-shadow: -5px -5px red;
+    box-shadow: 0 0 20px 0px red;
   }
   .green {
     background-color: green;
+    box-shadow: 5px 5px 5px green;
   }
   .blue {
-    background-color: blue;
+    background-color: rgb(3, 3, 78);
+    box-shadow: 0 0 0 5px blue;
   }
 
   .container {
